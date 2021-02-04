@@ -6,7 +6,7 @@
    
 ## ℹ Sobre
 
-30 dias de Css3, é um desafio que visa ajudá-lo(a) a melhorar suas habilidades de codificação fazendo mini projetos diarios
+30 dias de Css, é um desafio que visa ajudá-lo(a) a melhorar suas habilidades de codificação fazendo mini projetos diarios
 
 </br>
 </br>
