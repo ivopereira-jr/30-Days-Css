@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto';
+  color: #999;
+}
+
+header h1 {
+  margin-top: 50px;
+}
+
+.container {
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.container .last-content {
+  margin-left: 30px;
+}
+
+.container div > span {
+  color: rgb(253, 60, 102);
+}
+
+.container .box-content {
+  height: 50px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  overflow: hidden;
+}
+
+.box-content div {
+  height: 45px;
+  padding: 4px 12px;
+  margin-bottom: 45px;
+  border-radius: 4px;
+}
+
+.box-content div:first-child {
+  animation: show 5s linear 400ms infinite;
+}
+
+.box-content div {
+  background: #42c58a;
+}
+.box-content div:first-child {
+  background: #4ec7f3;
+}
+.box-content div:last-child {
+  background: #dc143c;
+}
+
+@keyframes show {
+  0% {
+    margin-top: 0px;
+  }
+  5% {
+    margin-top: -87px;
+  }
+  33% {
+    margin-top: -87px;
+  }
+  38% {
+    margin-top: -177px;
+  }
+  66% {
+    margin-top: -177px;
+  }
+  70% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+footer {
+  font-size: 12px;
+  margin-top: auto;
+}
+
+footer p span {
+  margin: 0 3px;
+}
+
+footer p a {
+  color: rgb(58, 58, 58);
+  margin: 0 3px;
+}
