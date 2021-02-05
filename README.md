@@ -13,7 +13,7 @@
 
 Dia 01
 
-<img alt="mae faz cafe tem visita volte sempre" src="day 01/images/1-day-css.gif" width="100%" />
+<img alt="mae faz cafe tem visita volte sempre" src="images/1-day-css.gif" width="100%" />
 </br>
 </br>
 
