@@ -17,6 +17,13 @@ Dia 01
 </br>
 </br>
 
+Dia 02
+
+<img alt="mae faz cafe tem visita volte sempre" src="images/2-day-css.gif" width="100%" />
+
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - Css3
@@ -25,7 +32,7 @@ Dia 01
 </br>
 </br>
 
-## 💻 Como utilizar
+# 💻 Como utilizar
 
 ```bash
 
