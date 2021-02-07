@@ -29,6 +29,12 @@ Dia 03
 </br>
 </br>
 
+Dia 04
+
+<img alt="mae faz cafe tem visita volte sempre" src="images/4-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - Css3
