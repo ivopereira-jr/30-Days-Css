@@ -3,7 +3,9 @@
 </h1>   
 </br>
 </br>
-   
+
+![GitHub repo size](https://img.shields.io/github/repo-size/ivopereira-jr/30-Days-Css)
+
 ## ℹ Sobre
 
 30 dias de Css, é um desafio que visa ajudá-lo(a) a melhorar suas habilidades de codificação fazendo mini projetos diarios
@@ -19,19 +21,25 @@ Dia 01
 
 Dia 02
 
-<img alt="mae faz cafe tem visita volte sempre" src="images/2-day-css.gif" width="100%" />
+<img alt="spiner carregando" src="images/2-day-css.gif" width="100%" />
 </br>
 </br>
 
 Dia 03
 
-<img alt="mae faz cafe tem visita volte sempre" src="images/3-day-css.gif" width="100%" />
+<img alt="relogio" src="images/3-day-css.gif" width="100%" />
 </br>
 </br>
 
 Dia 04
 
-<img alt="mae faz cafe tem visita volte sempre" src="images/4-day-css.gif" width="100%" />
+<img alt="imagens de pessoas lugares" src="images/4-day-css.gif" width="100%" />
+</br>
+</br>
+
+Dia 05
+
+<img alt="ola esse e o 5 dia desafio 30 dias de css" src="images/5-day-css.gif" width="100%" />
 </br>
 </br>
 
