@@ -43,6 +43,12 @@ Dia 05
 </br>
 </br>
 
+Dia 06
+
+<img alt="cards com texto e imagem de pessoas" src="images/6-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - Css3
