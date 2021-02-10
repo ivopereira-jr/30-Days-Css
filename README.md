@@ -49,6 +49,12 @@ Dia 06
 </br>
 </br>
 
+Dia 07
+
+<img alt="campo para senha com animação no nome password" src="images/7-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - Css3
