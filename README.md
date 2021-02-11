@@ -55,6 +55,12 @@ Dia 07
 </br>
 </br>
 
+Dia 08
+
+<img alt="campo de pesquisa animado" src="images/8-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - Css3
