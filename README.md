@@ -61,6 +61,12 @@ Dia 08
 </br>
 </br>
 
+Dia 09
+
+<img alt="abertera animada" src="images/9-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - Css3
