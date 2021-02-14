@@ -73,6 +73,12 @@ Dia 10
 </br>
 </br>
 
+Dia 11
+
+<img alt="abertera de menu animada" src="images/11-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - Css3
