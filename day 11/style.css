@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Roboto';
+  color: #fff;
+  background-color: #333;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header h1 {
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.container {
+  margin-top: auto;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  transform-style: preserve-3d;
+}
+
+.card .face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  transition: 2s ease-in-out;
+  transform: perspective(500px) rotateY(0deg);
+}
+
+.card .face h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+  transform: perspective(500px) translateZ(50px);
+}
+
+.card .face.front {
+  color: #333;
+  background-color: #ff0;
+}
+
+.card:hover .face.front {
+  transform: perspective(500px) rotateY(180deg);
+}
+
+.card .face.back {
+  color: #fff;
+  background-color: #3bc2ff;
+  transform: perspective(500px) rotateY(180deg);
+}
+
+.card:hover .face.back {
+  transform: perspective(500px) rotateY(360deg);
+}
+
+footer {
+  margin-top: auto;
+  margin-bottom: 20px;
+  z-index: 3;
+  font-size: 14px;
+}
+
+footer p span {
+  margin: 0 3px;
+}
+
+footer p a {
+  margin: 0 3px;
+  text-decoration: none;
+  color: #fff;
+}
