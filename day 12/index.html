@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>30 Dias De Css</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Dia 12</h1>
+    </header>
+
+    <div class="container">
+      <div class="switch">
+        <input
+          type="checkbox"
+          name="gooey-switch"
+          id="gooey-switch"
+          onclick="lightDark()"
+        />
+        <label for="gooey-switch">On/Off</label>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        Created
+        <a href="https://codepen.io/akhil_001" target="_blank"
+          >Akhil Sai Ram
+        </a>
+        <span>|</span>
+        Replicated
+        <a href="https://github.com/ivopereira-jr" target="_blank"
+          >Ivo pereira</a
+        >
+      </p>
+    </footer>
+
+    <script src="https:use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script>
+      function lightDark() {
+        document.body.classList.toggle('dark')
+      }
+    </script>
+  </body>
+</html>
