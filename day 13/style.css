@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Roboto';
+  color: #333;
+  background-color: #fff;
+}
+
+h1 {
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.container {
+  margin-top: auto;
+}
+
+.container > a {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  border: 2px solid #111;
+  text-transform: uppercase;
+  color: #111;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container > a::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% - 12px);
+  background-color: #fff;
+  transition: 0.5s ease-in-out;
+  transform: scaleY(1);
+  transition-delay: 0.5s;
+}
+
+.container > a:hover:before {
+  transform: scaleY(0);
+}
+
+.container > a::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 6px;
+  width: calc(100% - 12px);
+  height: calc(100% + 4px);
+  background-color: #fff;
+  transition: 0.5s ease-in-out;
+  transform: scaleX(1);
+}
+
+.container > a:hover:after {
+  transform: scaleX(0);
+}
+
+.container > a span {
+  position: relative;
+  z-index: 3;
+}
+
+footer {
+  margin-top: auto;
+  margin-bottom: 20px;
+  z-index: 3;
+  font-size: 14px;
+}
+
+footer p span {
+  margin: 0 3px;
+}
+
+footer p a {
+  margin: 0 3px;
+  text-decoration: none;
+  color: #333;
+}
