@@ -85,6 +85,12 @@ Dia 12
 </br>
 </br>
 
+Dia 13
+
+<img alt="abertera de menu animada" src="images/13-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - Css3
