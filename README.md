@@ -75,19 +75,25 @@ Dia 10
 
 Dia 11
 
-<img alt="abertera de menu animada" src="images/11-day-css.gif" width="100%" />
+<img alt="card com rotação" src="images/11-day-css.gif" width="100%" />
 </br>
 </br>
 
 Dia 12
 
-<img alt="abertera de menu animada" src="images/12-day-css.gif" width="100%" />
+<img alt="botão on/off que troca a cor de fundo" src="images/12-day-css.gif" width="100%" />
 </br>
 </br>
 
 Dia 13
 
-<img alt="abertera de menu animada" src="images/13-day-css.gif" width="100%" />
+<img alt="botão com borda animada quando o mouse passa por cima" src="images/13-day-css.gif" width="100%" />
+</br>
+</br>
+
+Dia 14
+
+<img alt="background animado" src="images/14-day-css.gif" width="100%" />
 </br>
 </br>
 
