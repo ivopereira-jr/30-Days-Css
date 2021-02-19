@@ -97,6 +97,12 @@ Dia 14
 </br>
 </br>
 
+Dia 15
+
+<img alt="animação coração pulsando" src="images/15-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - Css3
