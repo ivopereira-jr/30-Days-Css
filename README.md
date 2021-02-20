@@ -103,6 +103,12 @@ Dia 15
 </br>
 </br>
 
+Dia 16
+
+<img alt="imagem com efeito de foco e desfoco quando passa o mouse" src="images/16-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - Css3
