@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Roboto';
+  color: #fff;
+  background-color: #262626;
+  overflow: hidden;
+}
+
+h1 {
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.container {
+  display: flex;
+  margin-top: auto;
+}
+
+.pulse {
+  width: 80px;
+  height: 80px;
+  background-color: #58ea00;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 84px;
+  font-size: 48px;
+  position: relative;
+}
+
+.pulse::before,
+.pulse::after {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  display: block;
+  opacity: 0;
+  border-radius: 50%;
+  border: 1px solid #58ea00;
+  animation: animate 1.5s linear infinite;
+  backface-visibility: hidden;
+}
+
+.pulse::after {
+  animation-delay: 0.5s;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+footer {
+  margin-top: auto;
+  margin-bottom: 20px;
+  z-index: 3;
+  font-size: 14px;
+}
+
+footer p span {
+  margin: 0 3px;
+}
+
+footer p a {
+  color: #fff;
+  margin: 0 3px;
+  text-decoration: none;
+}
