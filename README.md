@@ -109,6 +109,12 @@ Dia 16
 </br>
 </br>
 
+Dia 17
+
+<img alt="efeito de pulso com icone de chamada de telefone" src="images/17-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - Css3
