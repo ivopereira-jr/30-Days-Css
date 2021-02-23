@@ -115,10 +115,16 @@ Dia 17
 </br>
 </br>
 
+Dia 18
+
+<img alt="animação de texto com o movimento do mouse" src="images/18-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
-- Css3
-- Html5
+- CSS3
+- HTML5
 
 </br>
 </br>
