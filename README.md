@@ -121,6 +121,12 @@ Dia 18
 </br>
 </br>
 
+Dia 19
+
+<img alt="animação" src="images/19-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - CSS3
