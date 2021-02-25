@@ -133,6 +133,12 @@ Dia 20
 </br>
 </br>
 
+Dia 21
+
+<img alt="barras animadas que fazem o texto aparecer" src="images/21-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - CSS3
