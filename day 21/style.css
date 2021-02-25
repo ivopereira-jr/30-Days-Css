@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  color: #fff;
+  background: #232323;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+h1 {
+  position: absolute;
+  top: 30px;
+  z-index: 333;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  row-gap: 10px;
+}
+
+.title {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.title h2 {
+  color: #fff;
+  font-size: 42px;
+  display: flex;
+  align-items: baseline;
+  padding-right: 15px;
+  opacity: 0;
+  position: relative;
+  -webkit-animation: mainFadeIn 2s forwards;
+  -o-animation: mainFadeIn 2s forwards;
+  animation: mainFadeIn 2s forwards;
+  animation-delay: 1.6s;
+}
+
+.title h2 span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0px;
+  height: 0px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #ffb510;
+  margin-left: 5px;
+  margin-top: -10px;
+  animation: popIn 0.8s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+  animation-delay: 2s;
+}
+
+.box .box-block {
+  position: absolute;
+  width: 0%;
+  height: inherit;
+  background: #ffb510;
+  animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+}
+
+.role {
+  width: 100%;
+  height: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.role .block {
+  position: absolute;
+  width: 0%;
+  height: inherit;
+  background: #e91e63;
+  display: flex;
+  animation: secBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+  animation-delay: 2s;
+}
+
+.role p {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  padding-left: 15px;
+  position: relative;
+  opacity: 0;
+  animation: secFadeIn 2s forwards;
+  animation-delay: 3.2s;
+}
+
+.role p span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0px;
+  height: 0px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #e91e63;
+  animation: popOut 0.8s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+  animation-delay: 4s;
+}
+
+@keyframes mainBlock {
+  0% {
+    width: 0%;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+@keyframes secBlock {
+  0% {
+    width: 0%;
+    right: 0;
+  }
+  50% {
+    width: 100%;
+    right: 0;
+  }
+  100% {
+    width: 0;
+    right: 100%;
+  }
+}
+
+@keyframes mainFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes secFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes popIn {
+  0% {
+    width: 0px;
+    height: 0px;
+    background: #e9d856;
+    border: 0px solid #ddd;
+    opacity: 0;
+  }
+  50% {
+    width: 10px;
+    height: 10px;
+    background: #e9d856;
+    opacity: 1;
+    bottom: 45px;
+  }
+  65% {
+    width: 7px;
+    height: 7px;
+    bottom: 0px;
+    width: 15px;
+  }
+  80% {
+    width: 10px;
+    height: 10px;
+    bottom: 20px;
+  }
+  100% {
+    width: 7px;
+    height: 7px;
+    background: #e9d856;
+    border: 0px solid #222;
+    bottom: 15px;
+  }
+}
+
+@keyframes popOut {
+  0% {
+    width: 0px;
+    height: 0px;
+    background: #e91e63;
+    opacity: 0;
+  }
+  50% {
+    width: 10px;
+    height: 10px;
+    background: #e91e63;
+    opacity: 1;
+    bottom: 45px;
+  }
+  65% {
+    width: 7px;
+    height: 7px;
+    bottom: 0px;
+    width: 7px;
+  }
+  80% {
+    width: 10px;
+    height: 10px;
+    bottom: 20px;
+  }
+  100% {
+    width: 7px;
+    height: 7px;
+    background: #e91e63;
+    bottom: 7px;
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 30px;
+  z-index: 333;
+  font-size: 14px;
+}
+
+footer p span {
+  margin: 0 3px;
+}
+
+footer p a {
+  margin: 0 3px;
+}
