@@ -166,6 +166,11 @@ Dia 23
 # clonar o repositório
 $ git clone https://github.com/ivopereira-jr/30-Days-Css.git
 
+# para iniciar abra algum projeto e use
+$ npm start
+ou
+$ yarn start
+
 ```
 
 ---
