@@ -13,7 +13,7 @@ a {
 
 body {
   min-height: 100vh;
-  color: #333;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,11 +21,12 @@ body {
 }
 
 h1 {
-  color: #fff;
-  text-align: center;
+  font-size: 2rem;
   font-weight: 400;
-  margin-top: 30px;
+  text-align: center;
   z-index: 33;
+  position: absolute;
+  top: 30px;
 }
 
 section {
@@ -34,6 +35,16 @@ section {
   height: 90vh;
   background: #3586ff;
   overflow: hidden;
+}
+
+section h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 33;
 }
 
 section .wave {
@@ -97,6 +108,7 @@ section .wave.wave4 {
 }
 
 footer {
+  color: #333;
   margin-top: auto;
   margin-bottom: 20px;
   font-size: 14px;
