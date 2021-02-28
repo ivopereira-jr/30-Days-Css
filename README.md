@@ -145,6 +145,12 @@ Dia 22
 </br>
 </br>
 
+Dia 23
+
+<img alt="animaçao efeito de ondas" src="images/23-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - CSS3
