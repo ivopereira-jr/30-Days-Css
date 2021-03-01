@@ -151,6 +151,12 @@ Dia 23
 </br>
 </br>
 
+Dia 24
+
+<img alt="animaçao efeito de olhos se movendo conforme o mouse se move" src="images/24-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - CSS3
