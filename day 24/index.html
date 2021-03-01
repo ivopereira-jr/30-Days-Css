@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>30 Dias De Css</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Dia 24</h1>
+
+    <div class="container">
+      <div class="eyes">
+        <div class="eye">
+          <div class="ball"></div>
+        </div>
+
+        <div class="eye">
+          <div class="ball"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        Created
+        <a
+          href="https://www.youtube.com/channel/UCD3KVjbb7aq2OiOffuungzw"
+          target="_blank"
+          >DarkCode</a
+        >
+        <span>|</span>
+        Replicated
+        <a href="https://github.com/ivopereira-jr" target="_blank"
+          >Ivo pereira</a
+        >
+      </p>
+    </footer>
+
+    <script>
+      let balls = document.getElementsByClassName('ball')
+
+      document.addEventListener('mousemove', () => {
+        // prettier-ignore
+        let x = event.clientX * 100 / window.innerWidth + '%'
+        // prettier-ignore
+        let y = event.clientY * 100 / window.innerHeight + '%'
+
+        for (let i = 0; i < 2; i++) {
+          balls[i].style.left = x
+          balls[i].style.top = y
+          // prettier-ignore
+          balls[i].style.transform = "translate(-"+x+",-"+y+")"
+        }
+      })
+    </script>
+  </body>
+</html>
