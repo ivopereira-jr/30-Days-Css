@@ -157,6 +157,12 @@ Dia 24
 </br>
 </br>
 
+Dia 25
+
+<img alt="imagem mudando o tamanho quando o mouse passa por cima" src="images/25-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - CSS3
