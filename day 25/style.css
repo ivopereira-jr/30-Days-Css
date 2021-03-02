@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  color: #fff;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.container {
+  position: relative;
+  height: 80vh;
+  display: flex;
+}
+
+.container .screen {
+  position: relative;
+  display: flex;
+  flex-grow: 2;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.container .screen:hover {
+  flex-grow: 3;
+}
+
+.container .screen:nth-child(1) {
+  background: url('images/img-1.png') no-repeat center;
+  background-size: cover;
+}
+
+.container .screen:nth-child(2) {
+  background: url('images/img-2.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.container .screen:nth-child(3) {
+  background: url('images/img-3.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.container .screen:nth-child(4) {
+  background: url('images/img-4.jpg') no-repeat center;
+  background-size: cover;
+}
+
+footer {
+  color: #fff;
+  margin-top: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer p span {
+  margin: 0 3px;
+}
+
+footer p a {
+  margin: 0 3px;
+}
