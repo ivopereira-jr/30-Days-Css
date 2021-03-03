@@ -169,6 +169,12 @@ Dia 26
 </br>
 </br>
 
+Dia 27
+
+<img alt="scroll bar colorida" src="images/27-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - CSS3
