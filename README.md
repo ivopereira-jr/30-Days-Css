@@ -163,6 +163,12 @@ Dia 25
 </br>
 </br>
 
+Dia 26
+
+<img alt="texto com video no plano de fundo" src="images/26-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - CSS3
