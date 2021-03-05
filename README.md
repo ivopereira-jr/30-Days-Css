@@ -181,6 +181,12 @@ Dia 28
 </br>
 </br>
 
+Dia 29
+
+<img alt="animaçao de de texto se movendo e mudando a cor" src="images/29-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - CSS3
