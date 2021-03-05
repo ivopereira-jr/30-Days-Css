@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>30 Dias De Css</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Dia 29</h1>
+    <section>
+      <span class="sliding">
+        <span>30</span>
+        <span>DIAS</span>
+        <span>CSS</span>
+        <span>-</span>
+        <span>30</span>
+        <span>DIAS</span>
+        <span>CSS</span>
+      </span>
+      <div class="wrapper">
+        <span class="sliding">
+          <span>30</span>
+          <span>DIAS</span>
+          <span>CSS</span>
+          <span>-</span>
+          <span>30</span>
+          <span>DIAS</span>
+          <span>CSS</span>
+        </span>
+      </div>
+    </section>
+    <footer>
+      <p>
+        Created
+        <a
+          href="https://www.youtube.com/c/OnlineTutorials4Designers/videos"
+          target="_blank"
+          >DarkCode</a
+        >
+        <span>|</span>
+        Replicated
+        <a href="https://github.com/ivopereira-jr" target="_blank"
+          >Ivo pereira</a
+        >
+      </p>
+    </footer>
+
+    <div class="topbtn">
+      <span class="rocket">
+        <img src="rocket.png" alt="rocket" />
+      </span>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+      let rocket = document.querySelector('.rocket')
+      let topBtn = document.querySelector('.topbtn')
+
+      window.onscroll = function () {
+        topBtn.classList.toggle('active', window.scrollY > 120)
+
+        let topBtonActive = topBtn.classList.contains('active')
+        if (topBtonActive != true) {
+          setTimeout(function () {
+            rocket.classList.remove('active')
+          }, 300)
+        }
+      }
+
+      //para subir para o top d pagina
+      $(document).ready(function () {
+        $('.topbtn').click(function () {
+          $('.rocket').addClass('active')
+          setTimeout(() => {
+            $('html, body').animate({ scrollTop: 0 }, 1500)
+          }, 200)
+        })
+      })
+    </script>
+  </body>
+</html>
