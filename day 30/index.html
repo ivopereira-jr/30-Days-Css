@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>30 Dias De Css</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Dia 30</h1>
+
+    <div class="container">
+      <div class="rocket">
+        <img src="rocket.png" alt="rocket">
+      </div>
+    </div>
+   
+    <footer>
+      <p>
+        Created
+        <a
+          href="https://www.youtube.com/c/OnlineTutorials4Designers/videos"
+          target="_blank"
+          >Online tutorials</a
+        >
+        <span>|</span>
+        Replicated
+        <a href="https://github.com/ivopereira-jr" target="_blank"
+          >Ivo pereira</a
+        >
+      </p>
+    </footer>
+
+    <div class="topbtn">
+      <span class="rocket">
+        <img src="rocket.png" alt="rocket" />
+      </span>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+      document.addEventListener("mousemove", function(e) {
+        let rocket = document.querySelector(".rocket")
+        rocket.style.left = e.offsetX + 'px'
+        rocket.style.top = e.offsetY + 'px'
+      })
+
+      function stars() {
+        let count = 20
+        let container = document.querySelector('.container')
+        let i = 0
+
+        while(i < count) {
+          let star = document.createElement('i')
+          let x = Math.floor(Math.random() * window.innerWidth)
+
+          let duration = Math.random() * 1
+          let h = Math.random() * 100
+
+          star.style.left = x + 'px'
+          star.style.width = 1 + 'px'
+          star.style.height = 50+ h + 'px'
+          star.style.animationDuration = duration + 's'
+
+          container.appendChild(star)
+          i++
+        }
+      }
+
+      stars()
+    </script>
+  </body>
+</html>

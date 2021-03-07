@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  color: #fff;
+  background-color: #01070a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+
+}
+
+h1 {
+  position: absolute;
+  top: 30px;
+  font-size: 2rem;
+  font-weight: 400;
+  z-index: 333;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container i {
+  position: absolute;
+  top: -250px;
+  background: rgba(255, 255, 255, 0.5);
+  animation: animeStars linear infinite;
+}
+
+@keyframes animeStars {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(200vh);
+
+  }
+}
+
+.container .rocket {
+  position: absolute;
+  pointer-events: none;
+  animation: animate 0.2s ease infinite;
+}
+
+@keyframes animate {
+  0%, 100% {
+    transform: translateY(-52px) translateX(-50%);
+  }
+  50% {
+    transform: translateY(-48px) translateX(-50%);
+  }
+}
+
+.container .rocket::before {
+  content: '';
+  position: absolute;
+  bottom: -200px;
+  left: 50%;
+  width: 10px;
+  height: 200px;
+  transform: translateX(-50%);
+  background: linear-gradient(#f76903, transparent);
+}
+
+.container .rocket::after {
+  content: '';
+  position: absolute;
+  bottom: -200px;
+  left: 50%;
+  width: 10px;
+  height: 200px;
+  transform: translateX(-50%);
+  background: linear-gradient(#f76903, transparent);
+  filter: blur(20px);
+}
+
+
+
+footer {
+  position: absolute;
+  bottom: 30px;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer p span {
+  margin: 0 3px;
+}
+
+footer p a {
+  margin: 0 3px;
+}
