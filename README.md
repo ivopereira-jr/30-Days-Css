@@ -187,6 +187,12 @@ Dia 29
 </br>
 </br>
 
+Dia 30
+
+<img alt="foguete se movendo quando o mouse se move" src="images/30-day-css.gif" width="100%" />
+</br>
+</br>
+
 ## 🚀 Tecnologias utilizadas:
 
 - CSS3
